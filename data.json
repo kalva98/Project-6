@@ -1,0 +1,55 @@
+{
+    "projects": [
+
+        {
+            "id": "0",
+            "name": "Random Quote Generator",
+            "description": "Shows random quotes Spider-Man movies, using basic JavaScript.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kalva98.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/kalva98",
+            "main_image": "/static/images/main.PNG",
+            "image_urls": ["/static/images/imagetwo.PNG"]
+        },
+        {
+            "id": "1",
+            "name": "List Pagination and Filtering",
+            "description": "This project displays 10 names at a time using JavaScript.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://kalva98.github.io/Project-2/",
+            "github_link": "https://github.com/kalva98",
+            "main_image": "/static/images/maintwo.PNG",
+            "image_urls": ["/static/images/main.PNG"]
+        },
+        {
+            "id": "2",
+            "name": "Interactive Form",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
+            "live_link": "https://kalva98.github.io/Project---3/",
+            "github_link": "https://github.com/kalva98",
+            "main_image": "/static/images/mainthree.PNG",
+            "image_urls": ["/static/images/main.PNG"]
+        },
+        {
+            "id": "3",
+            "name": "OOP Game Show App",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery", ""],
+            "live_link": "https://kalva98.github.io/Project-4-Game-Show-App/",
+            "github_link": "https://github.com/kalva98",
+            "main_image": "/static/images/mainfour.PNG",
+            "image_urls": ["/static/images/main.PNG"]
+        },
+        {
+            "id": "4",
+            "name": "Public API Request",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
+            "live_link": "https://kalva98.github.io/Project-5-/",
+            "github_link": "https://github.com/kalva98",
+            "main_image": "/static/images/mainfive.PNG",
+            "image_urls": ["/static/images/main.PNG"]
+        }
+    ]
+}
