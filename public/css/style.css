@@ -1,6 +1,11 @@
 
-h1,h2,h3,h4,h5,p{
+h1{
+ color: blueviolet;
+ text-shadow: 2px 2px 8px #888888
+}
+h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  
 }
 
   h5{
@@ -35,7 +40,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: rgb(0, 255, 21);
 }
 
 a{
@@ -58,7 +63,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #3ac90f;
   color: #fff;
   box-shadow: none !important;
 }

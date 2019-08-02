@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
 //makes the public folder static
 //use a static route and the express.static method to serve the static files located in the public folder
-app.use("/static", express.static(path.join(__dirname, 'public')));
+app.use("/static", express.static(__dirname + '/public'));
 
 
 //SETTING THE ROUTE
@@ -31,9 +31,8 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res) => {
-    const {
-        id
-    } = req.params;
+    res.locals.project = data.projects[parseInt(req.params.id)];
+    res.render("project")
 })
 
 
