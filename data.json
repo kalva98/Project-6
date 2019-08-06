@@ -7,7 +7,7 @@
             "description": "Random selected quotes shows on screen, or the user can interact by clicking on the button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kalva98.github.io/techdegree-project-1/",
-            "github_link": "https://github.com/kalva98",
+            "github_link": "https://github.com/kalva98/techdegree-project-1",
             "main_image": "/static/images/main.PNG",
             "image_urls": [
                 "/static/images/imageone.PNG",
@@ -21,7 +21,7 @@
             "description": "A program which displays a list of 10 students and navigates to a list of more students.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kalva98.github.io/Project-2/",
-            "github_link": "https://github.com/kalva98",
+            "github_link": "https://github.com/kalva98/Project-2",
             "main_image": "/static/images/maintwo.PNG",
             "image_urls": [
                 "/static/images/imagefour.PNG",
@@ -34,7 +34,7 @@
             "description": "An interactive form which was enhanced to allow the user to enter information to place an order.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery"],
             "live_link": "https://kalva98.github.io/Project---3/",
-            "github_link": "https://github.com/kalva98",
+            "github_link": "https://github.com/kalva98/Project---3",
             "main_image": "/static/images/mainthree.PNG",
             "image_urls": [
                 "/static/images/imagetwelve.PNG",
@@ -48,7 +48,7 @@
             "description": "A game where the player tries to guess a phrase to a Spider-Man movie.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery", ""],
             "live_link": "https://kalva98.github.io/Project-4-Game-Show-App/",
-            "github_link": "https://github.com/kalva98",
+            "github_link": "https://github.com/kalva98/Project-4-Game-Show-App",
             "main_image": "/static/images/mainfour.PNG",
             "image_urls": [
                 "/static/images/imageseven.PNG",
@@ -62,7 +62,7 @@
             "description": "A program that creates an employee directory by communicating with an API.",
             "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "AJAX"],
             "live_link": "https://kalva98.github.io/Project-5-/",
-            "github_link": "https://github.com/kalva98",
+            "github_link": "https://github.com/kalva98/Project-5-",
             "main_image": "/static/images/mainfive.PNG",
             "image_urls": [
                 "/static/images/imagenine.PNG",

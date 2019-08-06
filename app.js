@@ -1,10 +1,13 @@
-//Creating variables to require, expess
+//Variables added to require the necessary dependencies (Express, data.json)
+//Creating variables for require, express
 const express = require('express');
 const app = express();
 //storing the json data property into const data
 const data = require('./data.json');
 //storing the data into the const projects
 const projects = data.projects;
+//create variable for path
+//path module is used to set the path in the express.static function
 const path = require('path');
 
 //SETTING MIDDLEWARE
@@ -26,16 +29,19 @@ app.get('/', (req, res) => {
     });
 });
 
+//define the route for "about" page
 app.get('/about', (req, res) => {
+    //find a pug file named about.pug and use it to render "about " page
     res.render('about');
 });
 
+//define the route for view "project" page at projects/:id
 app.get('/projects/:id', (req, res) => {
     res.locals.project = data.projects[parseInt(req.params.id)];
     res.render("project")
 })
 
-
+//creates a new 404 status error
 app.use((req, res, next) => {
     const err = new Error('Whoops, looks like something went wrong!');
     err.status = 404;
@@ -50,7 +56,7 @@ app.use((err, req, res, next) => {
     res.render('error');
 });
 
-//starts server, user can access app on local port 3000
+//starts server, initiate the app at port 3000, //user can access app on local port 3000
 app.listen(3000, () => {
     console.log('This application is running on localhost:3000')
 });
