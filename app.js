@@ -14,9 +14,13 @@ const path = require('path');
 //sets your “view engine” to “pug”
 //allows user to use pug functionality
 app.set('view engine', 'pug');
+//dirname(directoryname) is project-6
 app.set('views', path.join(__dirname, 'views'));
+
 //makes the public folder static
+//app.use runs middleware in response to request, in this case specific to static
 //use a static route and the express.static method to serve the static files located in the public folder
+//static something that doesn't change
 app.use("/static", express.static(__dirname + '/public'));
 
 
@@ -37,6 +41,8 @@ app.get('/about', (req, res) => {
 
 //define the route for view "project" page at projects/:id
 app.get('/projects/:id', (req, res) => {
+    //res.local is an object that contains response local variables scope to the request
+    //the data from the project.pug file
     res.locals.project = data.projects[parseInt(req.params.id)];
     res.render("project")
 })
@@ -46,6 +52,7 @@ app.use((req, res, next) => {
     const err = new Error('Whoops, looks like something went wrong!');
     err.status = 404;
     next(err);
+    console.log(err)
 });
 
 //HANDLE ERRORS
