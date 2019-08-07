@@ -52,7 +52,7 @@ app.use((req, res, next) => {
     const err = new Error('Whoops, looks like something went wrong!');
     err.status = 404;
     next(err);
-    console.log(err)
+    console.log('Whoops, looks like something went wrong!')
 });
 
 //HANDLE ERRORS
