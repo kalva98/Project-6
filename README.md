@@ -18,7 +18,10 @@ The following template are present: layout.pug, index.pug, about.pug, project.pu
 Errors:
 App logs out a user friendly error message to the console when the app is pointed at a non-existent route such as /error/error. When the app is directed at a non-existent route, like /error/error, the app displays a user friendly error page in the browser that details the following: error.message, error.status, error.stack.
 
-Layout, CSS and styls:
-Final project's layout and positioning does match the example HTML or mockup files. Project has at least three of the following items customized: color changes to hover button on github link and live demo, change to header color, added shadow to the main text, changed color to background. Changes detailed in the README.md file and the submission notes.
+Layout, CSS and styles:
+Final project's layout and positioning does match the example HTML or mockup files. Project has at least three of the following items customized: color, background color, font, box or text shadows, transitions or animations, add a logo. Changes detailed in the README.md file and the submission notes.
+
+Changes made to style.css:
+h1: color changed to blueviolet #8A2BE2, text-shadow added 2px 2px 8px with color #888888. Color changed to hover button on Github link and live demo, .button:hover background-color #0344f5. Changed color to .portfolio-me background: #0344f5. 
 
 
